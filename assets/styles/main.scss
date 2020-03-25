@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.page-enter-active, .page-leave-active {
+    transition: all .3s ease;
+}
+
+.page-enter{
+    transform: translateY(-100px);
+}
+ .page-leave-to {
+    transform: translateY(-100px);
+    opacity: 0;
+}

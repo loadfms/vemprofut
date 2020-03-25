@@ -1,0 +1,29 @@
+.home_container {
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: url(~@/assets/images/home_bg.png);
+    background-size: cover;
+
+    .links{
+        display: block;
+    }
+
+    h1,h2{
+        padding: 0;
+        margin: 0;
+        color:white;
+    }
+
+    h1{
+        font-size: 36px;
+    }
+
+    h2{
+        font-size: 125px;
+    }
+  }

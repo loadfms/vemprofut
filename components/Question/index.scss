@@ -1,0 +1,18 @@
+.question{
+    width: 100%;
+    p{
+        margin: 0;
+        padding: 0;
+
+        &.text{
+            color: #454553;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        &.helptext{
+            color: #D8D8D8;
+            font-size: 14px;
+        }
+    }
+}
